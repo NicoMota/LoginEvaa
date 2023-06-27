@@ -1,21 +1,16 @@
 body, html {
   font-family: 'Source Sans Pro', sans-serif;
-  background: radial-gradient(farthest-side at top, #092944, #010510);
+  /* background: radial-gradient(farthest-side at top, #092944, #010510); */
+  background: url(/img/space.jpg) no-repeat top center/cover ;
   padding: 0;
   margin: 0;
   width: -10%;
   height: 100%;
 }
 
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
 .container{
   margin: 0;
-  top: 50px;
+  top: 20vh;
   left: 50%;
   position: absolute;
   text-align: center;
@@ -188,27 +183,6 @@ label span {
   display: none;
 }
 
-.footer {
-    position:fixed;
-    left: 0;
-    bottom: 0;
-    top: 580px;
-    width: 100%;
-    color: #78797d;
-    font-size: 14px;
-    text-align: center;
-}
-
-.footer .fa {
-  color: #7f5feb;;
-}
-
-*,
-*:after,
-*:before {
-  padding: 0;
-  margin: 0;
-}
 
 
 /*-------- Evaa --------*/ 
@@ -318,4 +292,31 @@ label:after {
 }
 label:before {
   left: calc(4rem + 0.3em);
+}
+
+
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer i {
+  color: red;
+}
+
+footer a {
+  color: #3c97bf;
+  text-decoration: none;
 }
